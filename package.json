@@ -1,6 +1,6 @@
 {
   "name": "banner-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate banner from package.json",
   "main": "index.js",
   "repository": {
