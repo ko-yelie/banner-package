@@ -1,0 +1,20 @@
+{
+  "name": "banner-package",
+  "version": "0.0.1",
+  "description": "Generate banner from package.json",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko-yelie/banner-package.git"
+  },
+  "keywords": [
+    "banner",
+    "package.json"
+  ],
+  "author": "Ko.Yelie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ko-yelie/banner-package/issues"
+  },
+  "homepage": "https://github.com/ko-yelie/banner-package#readme"
+}
