@@ -9,7 +9,7 @@ ${Object.keys(pkg.dependencies)
       .join('')}`
   : ''
 
-module.exports = `/*!
+const banner = `/*!
  * ${pkg.name} v${pkg.version}
  * ${pkg.homepage}
  *
@@ -17,3 +17,5 @@ module.exports = `/*!
  * Copyright (c) ${pkg.year} ${pkg.author}
  * Released under the ${pkg.license} License.
 ${dependencies} */`
+
+module.exports = banner

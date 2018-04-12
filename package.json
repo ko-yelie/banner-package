@@ -2,7 +2,10 @@
   "name": "banner-package",
   "version": "0.0.2",
   "description": "Generate banner from package.json",
-  "main": "index.js",
+  "main": "dist/banner-package.cjs.js",
+  "scripts": {
+    "build": "bili"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ko-yelie/banner-package.git"
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ko-yelie/banner-package/issues"
   },
-  "homepage": "https://github.com/ko-yelie/banner-package#readme"
+  "homepage": "https://github.com/ko-yelie/banner-package#readme",
+  "devDependencies": {
+    "bili": "^3.0.15"
+  }
 }
