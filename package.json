@@ -1,6 +1,6 @@
 {
   "name": "banner-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate banner from package.json",
   "main": "dist/banner-package.cjs.js",
   "scripts": {
