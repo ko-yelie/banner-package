@@ -13,6 +13,7 @@ module.exports = `/*!
  * ${pkg.name} v${pkg.version}
  * ${pkg.homepage}
  *
- * (c) ${pkg.year}-present ${pkg.author}
+ * @license
+ * Copyright (c) ${pkg.year} ${pkg.author}
  * Released under the ${pkg.license} License.
 ${dependencies} */`
